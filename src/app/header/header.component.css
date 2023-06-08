@@ -1,0 +1,91 @@
+header {
+    display: block;
+    border-color: var(--niceTeal);
+    border-width: 1px;
+    margin: 3px;
+}
+
+#light header {
+    border-color: var(--niceTealLightMode);
+}
+
+header h1 {
+    background-color: var(--transparent);
+    display: flex;
+    justify-content: center;
+}
+
+#name {
+    text-align: center;
+    flex: 1 1;
+}
+
+#name h1 {
+    background-color: var(--pastelBlue);
+    margin-bottom: 0px;
+}
+
+#headshot {
+    padding: 0px 4px;
+    flex: 2 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#headshot img {
+    max-width: 100%;
+    max-height: 300px;
+    padding: 0px;
+}
+
+#shortcuts {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#shortcuts a {
+    margin: 0px 3px 6px 3px;
+}
+
+#lightDark {
+    display: flex;
+    justify-content: center;
+}
+
+#image {
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-image: url('../../api/projects/images/solarpunk.png');
+    height: 150px;
+}
+
+#image h1 {
+    background-color: var(--visionCloudy);
+    padding: 3px;
+    margin: 6px 3px;
+    text-align: center;
+}
+
+@media screen and (max-width: 980px) {
+    #image {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #image {
+        justify-content: center;
+    }
+
+    #image h1 {
+        font-size: 18pt;
+    }
+}
+
+/* @media screen and (max-width: 432px) {
+    #shortcuts {
+        flex-direction: column;
+    }
+} */

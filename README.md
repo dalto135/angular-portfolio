@@ -1,27 +1,30 @@
-# Apm
+# Angular Portfolio
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.3.
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-## Development server
+## Table of Contents
+[Project Link](#Link)  
+[Technologies](#Technologies)  
+[Description](#Description)  
+[Screenshots](#Screenshots)  
+[License](#License)  
+[Contact](#Contact)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Link
+https://dalto135.github.io/angular-portfolio/
 
-## Code scaffolding
+## Technologies
+Angular, HTML, CSS and Javascript
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Description
+A portfolio website designed to both provide my personal information and demonstrate various skills using HTML, CSS, Javascript and Angular. For the displayed work, I have included various projects I have created that demonstrate various skills. Links to the deployed apps and github sites are available in this section. Site theme can be toggled between light and dark mode.
 
-## Build
+## Screenshots
+![Light Mode Screenshot](assets/images/light_mode_screenshot.png)
+![Dark Mode Screenshot](assets/images/dark_mode_screenshot.png)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## License
+MIT
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Contact
+Dalton Wilkins - daltongh@gmail.com

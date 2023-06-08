@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
 
 @Component({
-  templateUrl: './contact-me.component.html'
+  templateUrl: './contact-me.component.html',
+  styleUrls: ['./contact-me.component.css']
 })
-export class WelcomeComponent {
-  public pageTitle = 'Contact Me';
+export class ContactMeComponent {
+
 }

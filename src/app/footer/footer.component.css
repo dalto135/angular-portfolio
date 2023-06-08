@@ -1,0 +1,29 @@
+#footer {
+    border-color: var(--niceTeal);
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 3px;
+}
+
+#light #footer {
+    border-color: var(--niceTealLightMode);
+}
+
+#footer a {
+    background-color: var(--pastelBlue);
+    flex: 1 1;
+    padding: 3px;
+}
+
+#light #footer a {
+    background-color: var(--pastelBlue);
+}
+
+#footer a:hover {
+    background-image: var(--blueGradient);
+}
+
+#light #footer a:hover {
+    background-image: var(--blueGradientLightMode);
+}
