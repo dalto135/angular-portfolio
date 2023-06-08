@@ -5,7 +5,7 @@ import { ProjectService } from './project.service';
 
 @Component({
     templateUrl: './project-list.component.html',
-    styleUrls: ['./project-list.component.css', '../project/project.component.css']
+    styleUrls: ['./project-list.component.css', '../project/project.component.css', '../pages.css']
 })
 export class ProjectListComponent {
     errorMessage: string = '';

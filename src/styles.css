@@ -129,7 +129,7 @@ a:hover, button:hover {
   background-image: var(--linkGradient);
 }
 
-router-outlet, ng-component {
+header, footer, router-outlet, ng-component {
   border: None;
   margin: 0px;
   padding: 0px;
