@@ -20,8 +20,10 @@ Angular, HTML, CSS and Javascript
 A portfolio website designed to both provide my personal information and demonstrate various skills using HTML, CSS, Javascript and Angular. For the displayed work, I have included various projects I have created that demonstrate various skills. Links to the deployed apps and github sites are available in this section. Site theme can be toggled between light and dark mode.
 
 ## Screenshots
-![Light Mode Screenshot](assets/images/light_mode_screenshot.png)
-![Dark Mode Screenshot](assets/images/dark_mode_screenshot.png)
+![Portfolio About Me Page Screenshot Dark Mode](src/api/projects/images/screenshot1.png)
+![Portfolio About Me Page Screenshot Light Mode](src/api/projects/images/screenshot2.png)
+![Portfolio Projects Page Screenshot Dark Mode](src/api/projects/images/screenshot3.png)
+![Portfolio Contact Me Page Screenshot Dark Mode](src/api/projects/images/screenshot4.png)
 
 ## License
 MIT
