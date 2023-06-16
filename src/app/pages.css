@@ -2,10 +2,6 @@
     border-color: var(--green);
 }
 
-#light .page {
-    border-color: var(--greenLightMode);
-}
-
 .pageTitle {
     flex: 0.3 0.3;
 }

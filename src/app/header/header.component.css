@@ -5,10 +5,6 @@
     margin: 3px;
 }
 
-#light #header {
-    border-color: var(--niceTealLightMode);
-}
-
 #header h1 {
     background-color: var(--transparent);
     display: flex;
@@ -83,9 +79,3 @@
         font-size: 18pt;
     }
 }
-
-/* @media screen and (max-width: 432px) {
-    #shortcuts {
-        flex-direction: column;
-    }
-} */

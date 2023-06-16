@@ -8,6 +8,7 @@ import { DOCUMENT } from '@angular/common';
 })
 export class Header {
     headshot = '../../api/projects/images/headshot.jpg';
+
     constructor(@Inject(DOCUMENT) private parent: Document) {}
 
     setTheme(): void {
@@ -15,11 +16,13 @@ export class Header {
         let time = date.getHours();
     
         if (time >= 8 && time < 21) {
-        this.parent.documentElement.setAttribute("id", "light");
+            this.parent.documentElement.setAttribute("id", "light");
         }
     }
-    
-    // setTheme();
+
+    ngOnInit(): void {
+        this.setTheme();
+    }
 
     toggleTheme(): void {
         if (this.parent.documentElement.getAttribute("id") === "light") {

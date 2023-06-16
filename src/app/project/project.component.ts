@@ -1,9 +1,10 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
+    selector: 'project',
     templateUrl: './project.component.html',
     styleUrls: ['./project.component.css']
 })
-export class ProjectListComponent {
-
+export class Project {
+    @Input() project: any;
 }

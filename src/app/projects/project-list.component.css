@@ -1,3 +1,30 @@
-thead {
-    color: #337AB7;
+.projectRow {
+    margin: 6px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+project {
+    justify-content: flex-end;
+    border: 1px solid var(--cloudy);
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 3px;
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.125);
+    max-width: 50%;
+    padding: 0px;
+    flex: 1 1;
+}
+
+@media screen and (max-width: 768px) {
+    project {
+        margin: 6px 3px;
+        justify-content: center;
+        max-width: None;
+    }
+
+    .projectRow {
+        display: block;
+    }
 }

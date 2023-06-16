@@ -63,6 +63,12 @@ body {
   padding: 0px;
 }
 
+pm-root {
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
+}
+
 header, section, footer {
   border-radius: 12px;
 }
@@ -129,10 +135,63 @@ a:hover, button:hover {
   background-image: var(--linkGradient);
 }
 
-header, footer, router-outlet, ng-component {
+header, router-outlet, ng-component {
   border: None;
   margin: 0px;
   padding: 0px;
+}
+
+footer {
+  border-color: var(--niceTeal);
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 3px;
+}
+
+#light #header, #light footer {
+  border-color: var(--niceTealLightMode);
+}
+
+#light footer a {
+  background-color: var(--pastelBlue);
+}
+
+#light footer a:hover {
+  background-image: var(--blueGradientLightMode);
+}
+
+#light .page {
+  border-color: var(--greenLightMode);
+}
+
+#light project {
+  background-color: rgba(120, 138, 143, 0.188);
+  border-color: var(--cloudyBorderLightMode);
+}
+
+#light project h2 {
+  color: var(--projectTitleLightMode);
+}
+
+#light project p, #light project img {
+  border-color: var(--cloudyBorderLightMode);
+}
+
+#light project .deployedProject {
+  background-color: var(--pastelBlue);
+}
+
+#light project .deployedProject:hover {
+  background-image: var(--blueGradientLightMode);
+}
+
+#light project .github {
+  background-color: var(--pastelGreen);
+}
+
+#light project .github:hover {
+  background-image: var(--greenGradientLightMode);
 }
 
 /* Organization of elements changes at varying screen widths */
