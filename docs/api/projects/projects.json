@@ -1,0 +1,65 @@
+[
+    {
+        "title": "Bread Exchange",
+        "link": "https://bread-exchange-123.herokuapp.com/#/",
+        "screenshot": "../../api/projects/images/bread-exchange.png",
+        "description": "A MERN stack webpage that allows users to create an account and make posts describing leftover food they are willing to give away. Technologies used include HTML, CSS, Javascript, MongoDB, Express, React, and Node.",
+        "github": "https://github.com/dalto135/bread-exchange"
+    },
+    {
+        "title": "Global Lost and Found",
+        "link": "https://glacial-fortress-45860.herokuapp.com/",
+        "screenshot": "../../api/projects/images/global-lost-and-found.png",
+        "description": "A web application that allows users to post and search for items that have been reported missing. Technologies used include Sequelize, Javascript, Handlebars, and MYSQL2.",
+        "github": "https://github.com/Youngin9210/Lost-Found"
+    },
+    {
+        "title": "Dine or Dash",
+        "link": "https://sarehontaylor.github.io/DineOrDash/",
+        "screenshot": "../../api/projects/images/dine-or-dash.png",
+        "description": "A webpage that prompts the user to enter a food dish and location, and displays a list of recipies and local restaurants that match their dish. Technologies used include HTML, CSS, Javascript, and API integration.",
+        "github": "https://github.com/SarehonTaylor/DineOrDash"
+    },
+    {
+        "title": "Password Generator",
+        "link": "https://dalto135.github.io/password-generator/",
+        "screenshot": "../../api/projects/images/password-generator.png",
+        "description": "A simple program that generates a random password. The user can specify the length (between 8 and 128 characters), and whether the password includes uppercase and lowercase letters, numbers and special characters. The password will have no more than two of the same character in a row.",
+        "github": "https://github.com/dalto135/password-generator"
+    },
+    {
+        "title": "Weather Dashboard",
+        "link": "https://dalto135.github.io/weather-dashboard/",
+        "screenshot": "../../api/projects/images/weather-dashboard.png",
+        "description": "A webpage that prompts the user to enter a city name, and displays current weather conditions for that city in addition to a 5 day forecast. Technologies used include HTML, CSS, Javascript, and API integration.",
+        "github": "https://github.com/dalto135/weather-dashboard"
+    },
+    {
+        "title": "Google Books Search",
+        "link": "https://sheltered-ocean-65878.herokuapp.com/",
+        "screenshot": "../../api/projects/images/google-books-search.png",
+        "description": "A React webpage that uses the Google Books API to provide a Google Books search engine. Users can make searches to access Google Books and add books to their favorites. Technologies used include HTML, CSS, Javascript, MERN stack and API integration.",
+        "github": "https://github.com/dalto135/google-books-search"
+    },
+    {
+        "title": "Tech Blog",
+        "link": "https://intense-sea-31464.herokuapp.com/",
+        "screenshot": "../../api/projects/images/tech-blog.png",
+        "description": "A social networking website that allows users to create an account, make blog posts, and leave comments on posts others have made. Technologies used include HTML, CSS, Javascript, MYSQL2, Sequelize, and Handlebars.",
+        "github": "https://github.com/dalto135/tech-blog"
+    },
+    {
+        "title": "Coding Quiz Challenge",
+        "link": "https://dalto135.github.io/coding-quiz-challenge/",
+        "screenshot": "../../api/projects/images/coding-quiz-challenge.png",
+        "description": "A web application that presents an interactive Javascript quiz. The quiz is timed and time is deducted if a question is answered wrong. The quiz ends when all questions are answered or the timer runs out, and the user can store their score after typing in their initials.",
+        "github": "https://github.com/dalto135/coding-quiz-challenge"
+    },
+    {
+        "title": "Employee Tracker",
+        "link": "https://drive.google.com/file/d/1PRgjvLbEubjJbmaixVOPNbvKF6S-0zwB/view",
+        "screenshot": "../../api/projects/images/employee-tracker.png",
+        "description": "A program that uses Node and Inquirer to manipulate a SQL database of employees, departments and employee roles. Technologies used include Javascript, Node.js, Inquirer, and Dotenv.",
+        "github": "https://github.com/dalto135/employee-tracker"
+    }
+]
