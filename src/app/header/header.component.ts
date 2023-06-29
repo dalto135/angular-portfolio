@@ -7,7 +7,7 @@ import { DOCUMENT } from '@angular/common';
     styleUrls: ['./header.component.css']
 })
 export class Header {
-    headshot = '../../api/projects/images/headshot.jpg';
+    headshot = '../../../api/projects/images/headshot.jpg';
 
     constructor(@Inject(DOCUMENT) private parent: Document) {}
 
